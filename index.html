@@ -5,102 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/photos/Heart-logo.png">
     <title>Livinghouse-Silva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+     
+    .mySlides {display:none;}
+    .img-icons{
+      width: 150px;
+      height: auto;
+    }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <style>
-    html, body, section{
-  height:100%;
-  width:100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
 
-section{
-  background-color:#0099CC;
-  color:#fff;
-  font-family: Helvetica;
-}
-
-h1{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  width: 100%;
-  font-size:90px;
-  margin:0;
-}
-
-a{
-  position: absolute;
-  color: #0099CC;
-  background-color:#fff;
-  text-decoration: none;
-  padding:5px 15px;
-  border-radius:10px;
-  font-size:20px;
-  bottom: 20px;
-  left:50%;
-  transform: translateX(-50%);
-}
-
-#dos{
-  background-color:#15b22f;
-}
-
-#dos a{
-  color:#15b22f;
-}
-
-#uno.muestra, #dos.muestra{
-  position:absolute;
-  top:0;
-  z-index:1;
-  transform-origin:top center;
-  animation: iconosani 1.2s forwards;
-}
-
-@keyframes iconosani {
-    0% {
-        transform: perspective(800px) rotateX(-90deg);
-        opacity: 1;
-    } 
-    40% {
-        transform: perspective(800px) rotateX(30deg);
-        opacity: 1;
-    }
-    70% {
-        transform: perspective(800px) rotateX(-10deg);
-    }
-    100% {
-        transform: perspective(800px) rotateX(0deg);
-        opacity: 1;
-    }
-}
 </style>
-<body>
-    <section id="uno" class="muestra">
-        <h1>HOLA</h1>
-        <a href="#">Siguiente</a>
-      </section>
-      <section id="dos">
-        <h1>CHAU</h1>
-        <a href="#">Anterior</a>
-      </section>
+<body style="background-color: #c9383b;">
+  <h2 style="background-color: white; " class="w3-center">Angie ❤️ Corey</h2>
+  <div class="w3-content w3-display-container m-3 justify-content-center align-items-center">
+    <img class="mySlides" src="./assets/slides/IMG_20241128_144919 (2).jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG-20241106-WA0008.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG-20241217-WA0005.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG-20241224-WA0005.jpeg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241124161901.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241204010131.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241204010230.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241205190842.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241205191006.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241205214801.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/IMG20241206201722.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/Screenshot_2024-12-21-22-02-22-30_6012fa4d4ddec268fc5c7112cbb265e7.jpg" style="width:auto; height:300px;">
+    <img class="mySlides" src="./assets/slides/Screenshot_2024-12-22-13-37-07-89_6012fa4d4ddec268fc5c7112cbb265e7.jpg" style="width:auto; height:300px;">
+    
+  
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+<div>
+
+  <div>
+    <div class="mt-4 container text-center align-items-center">
+      <h1>❤️~US~❤️</h1>
       
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/Boscov's_Logo.svg.png" style="background-color: bisque;" alt="" class="img-icons rounded-pill">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/camisa.jpg" alt="" class="img-icons rounded-circle">
+        </div>
+    
+        <!-- Force next columns to break to new line at md breakpoint and up -->
+        <div class="w-100 d-none d-md-block"></div>
+    
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/CornMaze.jpg" alt="" class="img-icons rounded">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/duncan.png" alt="" class="img-icons">
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/parchis.png" style="" alt="" class="img-icons ">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/passports.jpg" alt="" class="img-icons rounded">
+        </div>
+    
+        <!-- Force next columns to break to new line at md breakpoint and up -->
+        <div class="w-100 d-none d-md-block"></div>
+    
+        
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center " style="height: 200px;">
+          <img src="./assets/photos/Smokey.jpg" alt="" class="img-icons rounded-circle">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center " style="height: 200px;">
+          <img src="./assets/photos/netflix.png" alt="" class="img-icons rounded-circle">
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/you.png" style="" alt="" class="img-icons rounded-circle">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="./assets/photos/translate.png" alt="" class="img-icons rounded-circle">
+        </div>
+    
+        <!-- Force next columns to break to new line at md breakpoint and up -->
+        <div class="w-100 d-none d-md-block"></div>
+    
+        
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center " style="height: 200px;">
+          <img src="./assets/photos/acne.jpg" alt="" class="img-icons rounded-circle">
+        </div>
+        <div class="col-6 col-sm-4 d-flex justify-content-center align-items-center " style="height: 200px;">
+          <img src="./assets/photos/horror-circus.png" alt="" class="img-icons rounded-pill">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 <script>
-    $('a').on('click', function(e){
-  e.preventDefault();
-  $('section').toggleClass('muestra');
-});
-
-
-</script>
-
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 </html>
